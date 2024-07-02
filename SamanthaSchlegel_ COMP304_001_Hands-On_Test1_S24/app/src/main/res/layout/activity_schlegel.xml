@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:contentDescription="Image"
+        app:srcCompat="@drawable/line1" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="476dp">
+
+        <RadioButton
+            android:id="@+id/Lose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lose things"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember names"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/learn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn things quickly"
+            android:textSize="34sp" />
+
+        <RadioButton
+            android:id="@+id/keep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep track of multiple things"
+            android:textSize="34sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+</LinearLayout>
+
+
+

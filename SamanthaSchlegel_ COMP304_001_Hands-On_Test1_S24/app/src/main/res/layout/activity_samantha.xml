@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:text="Brain Challenge"
+        android:textAlignment="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:text="Challenge your brain with scientifically designed execises."
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:src="@drawable/brain1" />
+
+    <ImageButton
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:contentDescription="Click for next"
+        android:src="@drawable/button1" />
+</LinearLayout>
